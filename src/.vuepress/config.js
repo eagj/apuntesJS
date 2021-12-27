@@ -1,4 +1,6 @@
 module.exports = {
+  dest: 'docs',
+  base: '/apuntesJS/',
   title: 'Apunte sobre JS',
   description: 'Mis apuntes de JS según voy aprendiendo',
   head: [
@@ -9,9 +11,7 @@ module.exports = {
   themeConfig: {
     editLinks: false,
     editLinkText: '',
-    lastUpdated: false,
-    dest: 'docs',
-    base: '/apuntesJS/',
+    lastUpdated: false,    
     nav: [
       {
         text: 'Guía',
